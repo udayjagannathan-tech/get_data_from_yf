@@ -1,5 +1,9 @@
-streamlit==1.36.0
-yfinance==0.2.40
-pandas==2.1.4
-numpy==1.26.4
-matplotlib==3.8.4
+numpy
+pandas
+streamlit
+numpy_financial
+mysql-connector-python
+matplotlib
+seaborn
+scikit-learn
+plotly
