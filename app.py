@@ -25,9 +25,9 @@ if st.button("Run analysis"):
 
     # Handle single vs multiple ticker column structure
     if isinstance(data.columns, pd.MultiIndex):
-        px = data["Adj Close"].copy()
+        px = data["Close"].copy()
     else:
-        px = data[["Adj Close"]].copy()
+        px = data[["Close"]].copy()
         px.columns = tickers  # name the single column
 
     # Drop rows with all NaNs
