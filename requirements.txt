@@ -1,9 +1,5 @@
 numpy
 pandas
 streamlit
-numpy_financial
-mysql-connector-python
 matplotlib
-seaborn
-scikit-learn
 plotly
