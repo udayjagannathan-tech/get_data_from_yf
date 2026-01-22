@@ -1,7 +1,7 @@
 numpy
 pandas
-altair
-streamlit
+streamlit==1.19.0        # if you want to keep this
+altair==4.2.2            # or: altair<5
 matplotlib
 plotly
 yfinance
