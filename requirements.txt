@@ -1,7 +1,8 @@
-numpy
-pandas
-streamlit==1.19.0        # if you want to keep this
-altair==4.2.2            # or: altair<5
-matplotlib
-plotly
-yfinance
+streamlit>=1.26.0,<2.0.0
+pillow>=10.0.0
+altair>=6.0.0
+numpy>=1.24,<3.0
+pandas>=2.0,<3.0
+matplotlib>=3.5
+plotly>=5.0
+yfinance>=0.2.0
