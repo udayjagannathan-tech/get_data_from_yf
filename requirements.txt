@@ -1,6 +1,7 @@
 numpy
 pandas
-streamlit
+streamlit==1.23.0
+altair==5.0.1    # or another 5.x version you’re comfortable with
 matplotlib
 plotly
 yfinance
